@@ -1,0 +1,26 @@
+<resources>
+<color name="background">#B0171F</color>
+<color name="button">#a4c639</color>
+<color name="kulur_purple">#6A2159</color>
+<color name="kulur_purple_dark">#3D1737</color>
+<color name="kulur_green">#88B351</color>
+<color name="kulur_pink">#FF0066</color>
+<color name="kulur_blue">#00CCFF</color>
+<color name="kulur_beige">#DEDCBB</color>
+<color name="kulur_white">#FFFFFF</color>
+<color name="kulur_lightgrey">#CCCCCC</color>
+<color name="kulur_black">#000000</color>
+<color name="kulur_darkgrey">#333</color>
+<color name="pending">#FFFCE8</color>
+<color name="friend">#FFFCE8</color>
+<color name="notinvitied">#CC3B37</color>
+<color name="orange">#F87217</color>
+<color name="light_grey">#E5E4E2</color>
+<color name="fluorescent_green">#99FF33</color>
+<color name="grey">#444441</color>
+<color name="transparent_grey">#80444441</color>
+
+<!-- for the graphs -->
+<color name="graphs_orange">#F38630</color>
+<color name="graphs_beige">#E0E4CC</color>
+</resources>

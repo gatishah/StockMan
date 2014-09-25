@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PickWordActivity" >
+
+    <LinearLayout
+        android:id="@+id/pick_myword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pick_myword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:text="@string/pick_word_desc"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/kulur_green" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/pick_myword"
+        android:layout_below="@+id/pick_myword"
+        android:text="@string/submit"
+        android:onClick="submit"
+        android:textColor="@color/kulur_beige" />
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pick_myword"
+        android:layout_below="@+id/pick_myword"
+        android:text="@string/generate_word"
+        android:onClick="random"
+        android:textColor="@color/kulur_beige" />
+
+</RelativeLayout>
